@@ -27,6 +27,10 @@ h1,h2,h3,h4,h5,h6{
 font-weight:normal;
 }
 
+#bios div{
+padding:20px;
+}
+
 #bios img{
 width:150px;
 height:150px;
@@ -313,7 +317,7 @@ margin-right:15px !important;
 function scrollToBio(bio){
     var bioLink = $("a[href='"+ bio +"']");
 	bioLink.click(function(){
-    $('body').animate({scrollTop: aTag.offset().top}, 'slow');
+    $('body').animate({scrollTop: bioLink.offset().top}, 'slow');
 	});
 }
 
