@@ -76,7 +76,7 @@ border-radius:3px;
 position:fixed;
 background-color:rgba(0,0,0,0.75);
 color:#f2f2f2;
-width:calc(100% - 30px);
+width:300px;
 top:0;
 font-weight:normal;
 font-size:15px;
@@ -343,17 +343,9 @@ margin-right:15px !important;
 <a id="bio_selector_toggler" href="">Toggle bio selector</a>
 
 <script>
-function scrollToBio(bio){
-    var bioLink = $("a[href='"+ bio +"']");
-	bioLink.click(function(){
-    $('body').animate({scrollTop: bioLink.offset().top}, 'slow');
-	});
-}
-
 $("#bio_selector a").click(function(){
 $("#bio_selector").hide(1000);
 $("#bio_selector_toggler").show(1000);
-scrollToBio($(this).href);
 });
 
 $("#bio_selector_toggler").click(function(){
