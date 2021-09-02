@@ -21,6 +21,7 @@ font-family:'Questrial', sans-serif;
 font-size:20px;
 font-weight:bold;
 margin:0;
+scroll-behavior:smooth;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -190,15 +191,27 @@ color:#ffffff;
 
 #bio_selector_toggler{
 background-color:rgba(255,255,255,0.75);
+color:#191919;
+text-decoration:none;
+font-size:15px;
 position:fixed;
 top:150px;
 left:0;
 margin:10px;
-padding:12px;
+padding:7px;
 border:0;
 border-radius:25px;
 z-index:1;
 display:none;
+transition:0.5s;
+}
+
+#bio_selector_toggler:hover{
+background-color:rgba(127,127,127,0.75);
+}
+
+#bio_selector_toggler:active{
+background-color:rgba(99,99,99,0.75);
 }
 
 #bio_selector{
@@ -338,9 +351,9 @@ function scrollToBio(bio){
 }
 
 $("#bio_selector a").click(function(){
-scrollToBio($(this).href);
 $("#bio_selector").hide(1000);
 $("#bio_selector_toggler").show(1000);
+scrollToBio($(this).href);
 });
 
 $("#bio_selector_toggler").click(function(){
