@@ -3,6 +3,7 @@
 
 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no">
 
+<script src="jquery-3.4.1.min.js"></script>
 
 <title>AUNT T.T. THE BOSS</title>
 <link rel="icon" href="favicon.png">
@@ -20,7 +21,6 @@ font-family:'Questrial', sans-serif;
 font-size:20px;
 font-weight:bold;
 margin:0;
-transition:1s;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -194,10 +194,13 @@ height:500px;
 margin:10px;
 border:0;
 border-radius:25px;
+z-index:1;
 }
 
 #bio_selector p{
 color:#f2f2f2;
+line-height:0;
+float:left;
 }
 
 #bio_selector a{
@@ -218,7 +221,7 @@ background-color:rgba(127,127,127,0.65);
 }
 
 #bio_selector a:active{
-background-color:rgba(0,0,0,0.65);
+background-color:rgba(99,99,99,0.65);
 }
 
 @media only screen and (max-width:600px){
@@ -277,6 +280,7 @@ margin-right:15px !important;
 
 <div id="bio_selector">
 <p>Select a bio to go to it.</p>
+<center>
 <a href="#tt-bio">T.T.</a>
 <a href="#wesley-bio">Wesley</a>
 <a href="#lord-mother-bio">Lord Mother</a>
@@ -291,7 +295,7 @@ margin-right:15px !important;
 <a href="#sparkle-bio">Sparkle</a>
 <a href="#silence-bio">Silence</a>
 <a href="#miss-polly-bio">Miss Polly</a>
-<a href="#mobs-bio">The MOB's/a>
+<a href="#mobs-bio">The MOB's</a>
 <a href="#mobs-rides-bio">The MOB's Hangout Rides</a>
 <a href="#the-streets-bio">The Streets</a>
 <a href="#chopper-bio">Chopper</a>
@@ -299,6 +303,7 @@ margin-right:15px !important;
 <a href="#wbw-bio">White Bottom Wu</a>
 <a href="#rrp-bio">Ram Rod P</a>
 <a href="#cincy-blue-bio">Cincy Blue</a>
+</center>
 </div>
 
 <script>
