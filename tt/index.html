@@ -221,7 +221,7 @@ background-color:rgba(99,99,99,0.75);
 }
 
 #bio_selector{
-background-color:rgba(0,0,0,0.50);
+background-color:rgba(0,0,0,0.80);
 position:fixed;
 top:150px;
 left:0;
@@ -319,7 +319,6 @@ margin-right:15px !important;
 <br><br>
 
 <div id="bio_selector">
-<p>Select a bio to go to it.</p>
 <center>
 <a href="#tt-bio">T.T.</a>
 <a href="#wesley-bio">Wesley</a>
@@ -355,7 +354,7 @@ $("#bio_selector_toggler").show(1000);
 
 $("#bio_selector a").click(function() {
 $([document.documentElement, document.body]).animate({
-scrollTop: $(this).attr("href").offset().top
+scrollTop: $("#" + $(this).attr("href")).offset().top
 }, 2000);
 });
 });
