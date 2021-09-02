@@ -273,28 +273,41 @@ margin-right:15px !important;
 <div id="bio_selector">
 <p>Select a bio to go to it.</p>
 <a href="#tt-bio">T.T.</a>
-<a href="#wesley-bio">T.T.</a>
-<a href="#lord-mother-bio">T.T.</a>
-<a href="#mauffie-bio">T.T.</a>
-<a href="#t-raw-bio">T.T.</a>
-<a href="#the-minister-bio">T.T.</a>
-<a href="#the-patriarch-bio">T.T.</a>
-<a href="#mr-peppers-bio">T.T.</a>
-<a href="#creature-bio">T.T.</a>
-<a href="#goldmouth-bio">T.T.</a>
-<a href="#whisper-bio">T.T.</a>
-<a href="#sparkle-bio">T.T.</a>
-<a href="#silence-bio">T.T.</a>
-<a href="#miss-polly-bio">T.T.</a>
-<a href="#mobs-bio">T.T.</a>
-<a href="#mobs-rides-bio">T.T.</a>
-<a href="#the-streets-bio">T.T.</a>
-<a href="#chopper-bio">T.T.</a>
-<a href="#niteboss-bio">T.T.</a>
-<a href="#wbw-bio">T.T.</a>
-<a href="#rrp-bio">T.T.</a>
-<a href="#cincy-blue-bio">T.T.</a>
+<a href="#wesley-bio">Wesley</a>
+<a href="#lord-mother-bio">Lord Mother</a>
+<a href="#mauffie-bio">Mauffie</a>
+<a href="#t-raw-bio">T-Raw</a>
+<a href="#the-minister-bio">The Minister</a>
+<a href="#the-patriarch-bio">The Patriarch</a>
+<a href="#mr-peppers-bio">Mr. Peppers</a>
+<a href="#creature-bio">Creature</a>
+<a href="#goldmouth-bio">Goldmouth</a>
+<a href="#whisper-bio">Whisper</a>
+<a href="#sparkle-bio">Sparkle</a>
+<a href="#silence-bio">Silence</a>
+<a href="#miss-polly-bio">Miss Polly</a>
+<a href="#mobs-bio">The MOB's/a>
+<a href="#mobs-rides-bio">The MOB's Hangout Rides</a>
+<a href="#the-streets-bio">The Streets</a>
+<a href="#chopper-bio">Chopper</a>
+<a href="#niteboss-bio">Jefe de Noche</a>
+<a href="#wbw-bio">White Bottom Wu</a>
+<a href="#rrp-bio">Ram Rod P</a>
+<a href="#cincy-blue-bio">Cincy Blue</a>
 </div>
+
+<script>
+function scrollToBio(bio){
+    var bioLink = $("a[href='"+ bio +"']");
+	bioLink.click(function(){
+    $('body').animate({scrollTop: aTag.offset().top}, 'slow');
+	});
+}
+
+$("#bio_selector a").click(function(){
+scrollToBio($(this).href);
+});
+</script>
 
 <div id="bios">
 
