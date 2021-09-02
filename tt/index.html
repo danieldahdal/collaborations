@@ -33,7 +33,7 @@ background-color:rgba(0,0,0,0.75);
 margin:50px;
 padding:50px;
 border:0;
-border-radius:65px;
+border-radius:80px;
 }
 
 #bios img{
@@ -68,8 +68,8 @@ font-size:50px;
 }
 
 .notice{
-background-color:#ffd700;
-color:#000000;
+background-color:#ff0000;
+color:#ffffff;
 padding:10px;
 font-size:15px;
 text-align:left;
@@ -86,7 +86,7 @@ top:0;
 right:0;
 font-weight:normal;
 font-size:15px;
-margin:10px;
+margin:60px;
 border:0;
 border-radius:45px;
 margin-bottom:150px;
@@ -173,8 +173,8 @@ outline:none;
 }
 
 input[type="submit"]{
-background-color:#ffd700;
-color:#000000;
+background-color:#ff0000;
+color:#ffffff;
 font-family:'Questrial', sans-serif;
 font-size:15px;
 border:0;
@@ -208,7 +208,6 @@ border:0;
 border-radius:25px;
 z-index:1;
 cursor:pointer;
-display:none;
 transition:0.5s;
 }
 
@@ -232,9 +231,10 @@ padding:12px;
 border:0;
 border-radius:25px;
 z-index:1;
+display:none;
 }
 
-#bio_selector h2{
+#bio_selector h2, #bio_selector h4{
 color:#f2f2f2;
 line-height:0;
 float:left;
@@ -319,8 +319,10 @@ margin-right:15px !important;
 <br><br>
 
 <div id="bio_selector">
+<button id="bio_selector_closer">Close</button>
 <center>
 <h2>Bio Selector</h2>
+<h4>Select a character's name below to view their bio.</h4>
 <br><br><br><br>
 <a href="#tt-bio">T.T.</a>
 <a href="#wesley-bio">Wesley</a>
@@ -358,6 +360,11 @@ $("#bio_selector_toggler").show(1000);
 $("#bio_selector_toggler").click(function(){
 $("#bio_selector").show(1000);
 $("#bio_selector_toggler").hide(1000);
+});
+
+$("#bio_selector_closer").click(function(){
+$("#bio_selector").hide(1000);
+$("#bio_selector_toggler").show(1000);
 });
 </script>
 
@@ -519,18 +526,18 @@ are experts in sawed-off shotguns.
 	<p class="title">New Elements</p>
 	<br>
 	<p>
-	1) YouTube Personalities Would Bring Their Followers... I Think An Extra With Followers Is Better Than An Extra With No Eyeballs Chasing Them... Views, Views, Views!! 
-	<br><br>
-	2) This Has Endless Possibilities For Cameo’s... And You Are Talking About Huge List Of Stars That Would Be Willing To Participate In This Fun Exciting Costume Party Of Action Packed Fast Paced Fun, Truth, And Pain 
-	<br><br>
-	3) The Multicultural Part, Is An Important Part Of This Story Something That Is Needed Right Now. In This Series Children Of All Races Talk The Same, Dress The Same In Urban Apparel. This Story Lets You Know It Is Not The Color Of A Person Skin Sometimes It Is An Environment. The Children Of Dead Hookers Have The Same Starting Line
-	<br><br>
-	4) The Action And Thrills And Horror And Timely Comedy Are Elements You Cannot Lose With If It Is Done With A Sense Of Belief... I Believe The Players Ball And The I-3G ( The Ill-Gotten Gaines Gathering) Is The Red Carpet Event Of The Underworld This Is Where You Would Get A Lot Of Cameos Red Carpet Strutting
-	<br><br>
-	5) Cars Everybody Loves Cars Mostly Street Cars,There Would Have To Be High Dollar Cars Also.. Guns, Women. Martial Arts Choreographed Correctly Catches Eyeballs. If The Fight Scenes Are Not Top Notch, You Lose Credibility With The Audience.
-	<br><br>
-	6) All Serial Killers Are Not Diabolical Geniuses Most Are People Who Think They Are Smarter Than The Rest Of Us In There Mind ... That Is Why In This Story A Pimp Is Delivering Street Justice To Predators Who Believe They Are Are Getting Away With It. To Also Stop The Substantial Amount Of Children Of Dead Hookers
-	<br><br>
+		1) YouTube personalities would bring their followers; I think an extra with followers is better than an extra with no eyeballs chasing them. Views, views, views!
+		<br><br>
+		2) This has endless possibilities for cameos. And, you're talking about a huge list of stars that would be willing to participate in this fun, exciting costume party of action-packed, fast-paced fun, truth, and pain.
+		<br><br>
+		3) The multicultural part is an important part of this story; something that is needed right now. In this series, children of all races talk the same, dress the same, in urban apparel. This story lets you know it is not the color of a person's skin; sometimes it is the environment. The children of dead hookers also have the same starting line.
+		<br><br>
+		4) The action, thrills, horror, and timely comedy are elements you cannot lose with, if it is done with a sense of belief. I believe The Players Ball and the i-3g (the Ill-Gotten Gains Gathering) is the red carpet event of the underworld — this is where you would get a lot of cameos red-carpet-strutting.
+		<br><br>
+		5) Cars. Everybody loves cars, mostly street cars; there would have to be high-dollar cars, also. Guns, women. Martial arts — choreographed correctly catches eyeballs. If the fight scenes aren't top notch, you lose credibility with the audience.
+		<br><br>
+		6) All serial killers are not diabolical geniuses; most are people who think they're smarter than the rest of us, in their minds. That is why, in this story, a pimp is delivering street justice to predators who believe they're getting away with it; also, to stop the substantial amount of children of dead hookers.
+		<br><br>
 	</p>
 	</center>
 	</div>
