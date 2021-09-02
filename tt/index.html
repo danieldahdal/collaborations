@@ -28,11 +28,6 @@ h1,h2,h3,h4,h5,h6{
 font-weight:normal;
 }
 
-a{
-font-family:'Questrial', sans-serif;
-text-decoration:none;
-}
-
 #bios div{
 background-color:rgba(0,0,0,0.75);
 margin:50px;
@@ -203,7 +198,7 @@ color:#ffffff;
 #bio_selector_toggler{
 background-color:rgba(255,255,255,0.75);
 color:#191919;
-text-decoration:none;
+font-family:'Questrial', sans-serif;
 font-size:15px;
 position:fixed;
 top:25px;
@@ -357,6 +352,12 @@ margin-right:15px !important;
 $("#bio_selector a").click(function(){
 $("#bio_selector").hide(1000);
 $("#bio_selector_toggler").show(1000);
+
+$("#bio_selector a").click(function() {
+$([document.documentElement, document.body]).animate({
+scrollTop: $(this.attr("href")).offset().top
+}, 2000);
+});
 });
 
 $("#bio_selector_toggler").click(function(){
