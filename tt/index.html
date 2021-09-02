@@ -351,21 +351,13 @@ margin-right:15px !important;
 
 <script>
 $("#bio_selector a").click(function(){
-
 $("#bio_selector").hide(1000);
 $("#bio_selector_toggler").show(1000);
-
-$([document.documentElement, document.body]).animate({
-scrollTop: $("#" + $(this).attr("href")).offset().top
-}, 2000);
-
 });
 
 $("#bio_selector_toggler").click(function(){
-
 $("#bio_selector").show(1000);
 $("#bio_selector_toggler").hide(1000);
-
 });
 </script>
 
