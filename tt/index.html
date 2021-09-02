@@ -355,7 +355,7 @@ $("#bio_selector_toggler").show(1000);
 
 $("#bio_selector a").click(function() {
 $([document.documentElement, document.body]).animate({
-scrollTop: $(this.attr("href")).offset().top
+scrollTop: $("#" + this.attr("href")).offset().top
 }, 2000);
 });
 });
