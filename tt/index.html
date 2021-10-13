@@ -370,6 +370,27 @@ $("#bio_selector_closer").click(function(){
 $("#bio_selector").hide(300);
 $("#bio_selector_toggler").show(300);
 });
+
+var spanTags = $( "#bio_selector_closer span" );
+
+spanTags.eq( 0 ).css("transition", "0.3s");
+spanTags.eq( 0 ).css("margin-top", "9px");
+spanTags.eq( 0 ).css("-moz-transform", "rotate(45deg)");
+spanTags.eq( 0 ).css("-ms-transform", "rotate(45deg)");
+spanTags.eq( 0 ).css("-o-transform", "rotate(45deg)");
+spanTags.eq( 0 ).css("-webkit-transform", "rotate(45deg)");
+spanTags.eq( 0 ).css("transform", "rotate(45deg)");
+
+spanTags.eq( 1 ).css("transition", "0.3s");
+spanTags.eq( 1 ).css("display", "none");
+
+spanTags.eq( 2 ).css("transition", "0.3s");
+spanTags.eq( 2 ).css("margin-top", "-9px");
+spanTags.eq( 2 ).css("-moz-transform", "rotate(-45deg)");
+spanTags.eq( 2 ).css("-ms-transform", "rotate(-45deg)");
+spanTags.eq( 2 ).css("-o-transform", "rotate(-45deg)");
+spanTags.eq( 2 ).css("-webkit-transform", "rotate(-45deg)");
+spanTags.eq( 2 ).css("transform", "rotate(-45deg)");
 </script>
 
 <div id="bios">
