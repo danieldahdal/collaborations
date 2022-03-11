@@ -3,7 +3,7 @@ body{
 }
 
 #hawaiian_flag{
-    background-image:url("Flag_of_Hawaii.svg");
+    background-image:url("https://danieldahdal.github.io/clients/harlan-blackshire/i-am-that-smoke/collections/heritage/hawaiian/media/Flag_of_Hawaii.svg");
     background-repeat:no-repeat;
     background-size:cover;
     width:100%;
@@ -12,7 +12,7 @@ body{
 }
 
 #hawaiian_beach{
-    background-image:url("Hawaiian_Beach.jpeg");
+    background-image:url("https://danieldahdal.github.io/clients/harlan-blackshire/i-am-that-smoke/collections/heritage/hawaiian/media/Hawaiian_Beach.jpeg");
     background-repeat:no-repeat;
     background-size:cover;
     opacity:0.7;
