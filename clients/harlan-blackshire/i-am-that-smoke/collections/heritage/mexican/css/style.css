@@ -13,19 +13,6 @@ body{
     position:absolute;
 }
 
-#mexican_flag_back{
-    width:375px;
-    height:375px;
-    border-radius:50%;
-    background-color:#ffffff88;
-    position:absolute;
-    top:32vh;
-    left:0;
-    right:0;
-    margin:0 auto;
-    z-index:1;
-}
-
 #mexican_flag{
     background-image:url("https://danieldahdal.github.io/clients/harlan-blackshire/i-am-that-smoke/collections/heritage/mexican/media/Flag_of_Mexico.svg");
     background-repeat:no-repeat;
