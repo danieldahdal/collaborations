@@ -1,4 +1,4 @@
-@import url('https://danieldahdal.github.io/clients/harlan-blackshire/i-am-that-smoke/css/font.css');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
 body{
     margin:0;
@@ -38,8 +38,8 @@ body{
 
 #country{
     color:#000000;
-    font-size:125px;
-    font-family: 'Questrial', sans-serif;
+    font-size:150px;
+    font-family: 'Oswald', sans-serif;
     position:absolute;
     left:0;
     right:0;
