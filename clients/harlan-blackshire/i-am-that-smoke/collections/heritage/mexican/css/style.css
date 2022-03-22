@@ -33,3 +33,9 @@ body{
     height:100vh;
     position:absolute;
 }
+
+#country{
+    color:#ffffff88;
+    font-size:100px;
+    font-family:Arial, Helvetica, sans-serif;
+}
