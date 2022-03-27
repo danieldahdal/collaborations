@@ -12,7 +12,6 @@ body{
     width:100%;
     height:100vh;
     position:absolute;
-    z-index:-1;
 }
 
 #mexico_flag{
@@ -27,6 +26,8 @@ body{
 
 #aztec_pyramids #tees{
     margin:20px;
+    position:absolute;
+    z-index:1;
 }
 
 #aztec_pyramids #tees .tee{
