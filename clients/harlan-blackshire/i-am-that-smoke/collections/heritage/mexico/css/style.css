@@ -5,8 +5,8 @@ body{
     background-color:#0a0a0a;
 }
 
-#aztec_pyramids{
-    background-image:url("https://danieldahdal.github.io/clients/harlan-blackshire/i-am-that-smoke/collections/heritage/mexico/media/640px-Chichen_Itza_3.jpeg");
+#background{
+    background-image:url("https://danieldahdal.github.io/clients/harlan-blackshire/i-am-that-smoke/collections/heritage/mexico/media/Aztec_Mexican_Flag [That Mexican Smoke].png");
     background-repeat:no-repeat;
     background-size:cover;
     width:100%;
@@ -14,29 +14,23 @@ body{
     position:absolute;
 }
 
-#mexico_flag{
-    background-image:url("https://danieldahdal.github.io/clients/harlan-blackshire/i-am-that-smoke/collections/heritage/mexico/media/Flag_of_Mexico [Modified].svg");
-    background-repeat:no-repeat;
-    background-size:cover;
-    opacity:0.5;
-    width:100%;
-    height:100vh;
-    position:absolute;
-}
-
-#aztec_pyramids #tees{
+#background #tees{
     z-index:1;
     margin:20px;
 }
 
-#aztec_pyramids #tees .tee{
+#background #tees #center{
+margin-top:50%;
+}
+
+#background #tees .tee{
     position:absolute;
     display:inline-block;
     margin:1%;
     width:200px;
 }
 
-#aztec_pyramids #tees .tee p{
+#background #tees .tee p{
     font-size:20px;
     font-family: 'Questrial', sans-serif;
     font-weight:bold;
@@ -44,7 +38,7 @@ body{
     color:#000000;
 }
 
-#aztec_pyramids #tees .tee img{
+#background #tees .tee img{
     background-color:#ffffffbb;
     border-radius:50%;
     object-fit:cover;
@@ -55,15 +49,15 @@ body{
     width:100%;
 }
 
-#aztec_pyramids #tees .tee img:hover{
+#background #tees .tee img:hover{
     box-shadow:0 0 5px 7px #000000bb;
 }
 
-#aztec_pyramids #tees .tee img:active{
+#background #tees .tee img:active{
     box-shadow:0 0 5px 9px #000000bb;
 }
 
-#aztec_pyramids #tees h1{
+#background #tees h1{
     width:60%;
     font-size:35px;
     font-family: 'Questrial', sans-serif;
@@ -72,12 +66,12 @@ body{
     color:#000000;
 }
 
-#aztec_pyramids #tees #browseMoreDesigns{
+#background #tees #browseMoreDesigns{
     display:inline-block;
     margin-bottom:50px;
 }
 
-#aztec_pyramids #tees #browseMoreDesigns h2{
+#background #tees #browseMoreDesigns h2{
     font-size:20px;
     font-family: 'Questrial', sans-serif;
     text-align:center;
@@ -85,7 +79,7 @@ body{
     margin-top:50px;
 }
 
-#aztec_pyramids #tees #browseMoreDesigns #browse_button{
+#background #tees #browseMoreDesigns #browse_button{
     background-color:#000000;
     color:#ffffff;
     width:170px;
@@ -100,12 +94,12 @@ body{
     transition:0.2s;
 }
 
-#aztec_pyramids #tees #browseMoreDesigns #browse_button:hover{
+#background #tees #browseMoreDesigns #browse_button:hover{
     box-shadow:0 0 25px 5px #ffffff;
     margin-top:20px;
 }
 
-#aztec_pyramids #tees #browseMoreDesigns #browse_button:active{
+#background #tees #browseMoreDesigns #browse_button:active{
     box-shadow:0 0 25px 8px #ffffff;
     margin-top:25px;
 }
