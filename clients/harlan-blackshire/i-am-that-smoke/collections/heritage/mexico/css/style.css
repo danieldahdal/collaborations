@@ -20,7 +20,7 @@ body{
 }
 
 #background #tees #center{
-margin-top:50%;
+margin-top:25%;
 }
 
 #background #tees .tee{
@@ -28,6 +28,7 @@ margin-top:50%;
     display:inline-block;
     margin:1%;
     width:200px;
+    height:200px;
 }
 
 #background #tees .tee p{
