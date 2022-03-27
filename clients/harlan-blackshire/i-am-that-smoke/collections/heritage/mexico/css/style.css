@@ -31,11 +31,11 @@ body{
 }
 
 #aztec_pyramids #tees #center{
-position:absolute;
-top:50vh;
-left:0;
-right:0;
-margin:0 auto;
+    position:absolute;
+    top:50vh;
+    left:0;
+    right:0;
+    margin:0 auto;
 }
 
 #aztec_pyramids #tees .tee{
