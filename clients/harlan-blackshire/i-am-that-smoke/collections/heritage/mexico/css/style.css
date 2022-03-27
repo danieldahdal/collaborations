@@ -7,7 +7,7 @@ body{
 
 #background{
     background-image:url("https://danieldahdal.github.io/clients/harlan-blackshire/i-am-that-smoke/collections/heritage/mexico/media/Aztec_Mexican_Flag [That Mexico Smoke].png");
-    background-repeat:no-repeat;
+    background-repeat:repeat;
     background-size:cover;
     width:100%;
     height:100vh;
