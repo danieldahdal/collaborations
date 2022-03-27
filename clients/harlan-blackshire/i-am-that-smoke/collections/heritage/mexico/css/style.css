@@ -25,9 +25,8 @@ body{
 }
 
 #aztec_pyramids #tees{
-    margin:20px;
-    position:absolute;
     z-index:1;
+    margin:20px;
 }
 
 #aztec_pyramids #tees .tee{
