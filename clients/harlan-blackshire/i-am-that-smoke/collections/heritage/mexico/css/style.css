@@ -6,7 +6,7 @@ body{
 }
 
 #background{
-    background-image:url("https://danieldahdal.github.io/clients/harlan-blackshire/i-am-that-smoke/collections/heritage/mexico/media/Aztec_Mexican_Flag [That Mexican Smoke].png");
+    background-image:url("https://danieldahdal.github.io/clients/harlan-blackshire/i-am-that-smoke/collections/heritage/mexico/media/Aztec_Mexican_Flag [That Mexico Smoke].png");
     background-repeat:no-repeat;
     background-size:cover;
     width:100%;
@@ -17,7 +17,7 @@ body{
 #background #tees{
     z-index:1;
     margin:20px;
-    margin-top:250px;
+    margin-top:225px;
 }
 
 #background #tees .tee{
