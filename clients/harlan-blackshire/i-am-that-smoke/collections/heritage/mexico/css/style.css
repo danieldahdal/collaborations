@@ -30,14 +30,6 @@ body{
     z-index:1;
 }
 
-#aztec_pyramids #tees #center{
-    position:absolute;
-    top:50vh;
-    left:0;
-    right:0;
-    margin:0 auto;
-}
-
 #aztec_pyramids #tees .tee{
     position:absolute;
     display:inline-block;
