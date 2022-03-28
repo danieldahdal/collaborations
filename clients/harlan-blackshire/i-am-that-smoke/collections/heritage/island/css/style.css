@@ -55,7 +55,7 @@ body{
     transition:0.2s;
 }
 
-#flags .flag{
+#flags .flag:hover{
     transform:scale(1.1);
 }
 
