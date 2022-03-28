@@ -15,7 +15,7 @@ body{
 #flags{
     width:80%;
     position:absolute;
-    top:0;
+    top:150px;
     left:0;
     right:0;
     margin:0 auto;
@@ -24,4 +24,5 @@ body{
 #flags .flag{
     display:inline-block;
     margin:50px;
+    border-radius:15px;
 }
