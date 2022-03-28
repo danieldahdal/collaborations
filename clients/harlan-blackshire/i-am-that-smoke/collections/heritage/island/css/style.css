@@ -3,7 +3,6 @@ body{
 }
 
 #video{
-    width:100%;
     height:100vh;
 }
 
@@ -13,5 +12,5 @@ body{
 }
 
 #flags .flag{
-margin:50px;
+    margin:50px;
 }
