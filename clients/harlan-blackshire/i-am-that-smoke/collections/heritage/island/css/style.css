@@ -9,8 +9,14 @@ body{
 #flags{
     width:80%;
     height:200px;
+    position:absolute;
+    left:0;
+    right:0;
+    margin:0 auto;
+    top:50vh;
 }
 
 #flags .flag{
+    display:inline-block;
     margin:50px;
 }
