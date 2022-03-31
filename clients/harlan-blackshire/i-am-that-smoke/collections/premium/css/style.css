@@ -24,7 +24,8 @@ body{
 #brick_wall #designs .design{
     display:inline-block;
     margin:1%;
-    width:17%;
+    width:200px;
+    height:200px;
 }
 
 #brick_wall #designs .design p{
