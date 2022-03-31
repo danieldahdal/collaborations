@@ -30,7 +30,9 @@ body{
     font-family: 'Questrial', sans-serif;
     font-weight:bold;
     text-align:center;
+    background-color:#010101;
     color:#ffffff;
+    border-radius:30px;
 }
 
 #brick_wall #designs .design img{
