@@ -34,6 +34,7 @@ body{
 }
 
 #brick_wall #designs .design img{
+    background-color:#010101;
     border-radius:50%;
     object-fit:cover;
     opacity:0.8;
