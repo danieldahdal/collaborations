@@ -18,7 +18,7 @@ body{
 #design_container #designs .design{
     display:inline-block;
     margin:20px;
-    margin-bottom:40px;
+    padding-bottom:60px;
     width:200px;
     height:200px;
 }
