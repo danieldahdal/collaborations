@@ -17,8 +17,9 @@ body{
 
 #design_container #designs .design{
     display:inline-block;
-    margin:1%;
-    width:17%;
+    margin:20px;
+    width:200px;
+    height:200px;
 }
 
 #design_container #designs .design p{
