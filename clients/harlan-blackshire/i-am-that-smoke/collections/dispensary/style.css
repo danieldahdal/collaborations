@@ -40,7 +40,8 @@ body{
     box-shadow:0 0 5px 5px #ffffffbb;
     cursor:pointer;
     transition:0.2s;
-    width:100%;
+    width:200px;
+    height:200px;
 }
 
 #brick_wall #designs .design img:hover{
