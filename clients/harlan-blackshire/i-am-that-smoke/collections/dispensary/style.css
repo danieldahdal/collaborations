@@ -19,6 +19,7 @@ body{
 }
 
 #brick_wall #designs .design{
+    background-color:#000000;
     display:inline-block;
     margin:1%;
     width:200px;
@@ -26,16 +27,20 @@ body{
 }
 
 #brick_wall #designs .design p{
+    background-color:#010101;
+    color:#ffffff;
+    display:inline-block;
     font-size:20px;
     font-family: 'Questrial', sans-serif;
     font-weight:bold;
     text-align:center;
-    color:#ffffff;
+    border:2px solid #ffffff;
+    border-radius:30px;
+    padding:7px;
 }
 
 #brick_wall #designs .design img{
     object-fit:cover;
-    opacity:0.8;
     box-shadow:0 0 5px 5px #ffffffbb;
     cursor:pointer;
     transition:0.2s;
