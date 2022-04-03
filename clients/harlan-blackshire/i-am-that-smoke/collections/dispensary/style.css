@@ -21,7 +21,8 @@ body{
 #brick_wall #designs .design{
     background-color:#000000;
     display:inline-block;
-    margin:1%;
+    margin:20px;
+    padding-bottom:60px;
     width:200px;
     height:200px;
 }
