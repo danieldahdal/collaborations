@@ -19,7 +19,6 @@ body{
 }
 
 #brick_wall #designs .design{
-    background-color:#000000;
     display:inline-block;
     margin:20px;
     padding-bottom:60px;
@@ -41,6 +40,7 @@ body{
 }
 
 #brick_wall #designs .design img{
+    background-color:#000000;
     object-fit:cover;
     box-shadow:0 0 5px 5px #ffffffbb;
     cursor:pointer;
@@ -57,7 +57,7 @@ body{
     box-shadow:0 0 5px 9px #ffffffbb;
 }
 
-#brick_wall #designs h1{
+#brick_wall h1{
     width:60%;
     font-size:35px;
     font-family: 'Questrial', sans-serif;
