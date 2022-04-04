@@ -7,6 +7,21 @@
             background-color:#000000;
             margin:0;
         }
+
+        #collections{
+            display:blocks;
+        }
+
+        .collection{
+            display:inline-block;
+            margin:20px;
+            padding:40px;
+            border:2px solid #ffffff;
+            border-radius:70px;
+            background-color:#000000;
+            color:#ffffff;
+        }
+
         object{
             display:block;
             width:100%;
@@ -17,12 +32,19 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no" />
 </head>
 <body>
+        <div id="collections">
+            <a class="collection" href="#monsters">MONSTERS</a>
+            <a class="collection" href="#premium">PREMIUM</a>
+            <a class="collection" href="#dispensary">DISPENSARY</a>
+            <a class="collection" href="#island">ISLAND BORN</a>
+            <a class="collection" href="#mexico">MEXICO</a>
+        </div>
         <img src="https://danieldahdal.github.io/clients/harlan-blackshire/i-am-that-smoke/media/bait-page-header.jpeg" width="100%">
         <center><img src="https://danieldahdal.github.io/clients/harlan-blackshire/i-am-that-smoke/media/i_am_that_smoke_logo_old.png" width="60%" style="margin-top:35px;"></center>
-        <object data="https://danieldahdal.github.io/clients/harlan-blackshire/i-am-that-smoke/collections/monsters/"></object>
-        <object data="https://danieldahdal.github.io/clients/harlan-blackshire/i-am-that-smoke/collections/premium/"></object>
-        <object data="https://danieldahdal.github.io/clients/harlan-blackshire/i-am-that-smoke/collections/dispensary/"></object>
-        <object data="https://danieldahdal.github.io/clients/harlan-blackshire/i-am-that-smoke/collections/heritage/island/"></object>
-        <object data="https://danieldahdal.github.io/clients/harlan-blackshire/i-am-that-smoke/collections/heritage/mexico/"></object>
+        <object id="monsters" data="https://danieldahdal.github.io/clients/harlan-blackshire/i-am-that-smoke/collections/monsters/"></object>
+        <object id="premium" data="https://danieldahdal.github.io/clients/harlan-blackshire/i-am-that-smoke/collections/premium/"></object>
+        <object id="dispensary" data="https://danieldahdal.github.io/clients/harlan-blackshire/i-am-that-smoke/collections/dispensary/"></object>
+        <object id="island" data="https://danieldahdal.github.io/clients/harlan-blackshire/i-am-that-smoke/collections/heritage/island/"></object>
+        <object id="mexico" data="https://danieldahdal.github.io/clients/harlan-blackshire/i-am-that-smoke/collections/heritage/mexico/"></object>
 </body>
 </html>
