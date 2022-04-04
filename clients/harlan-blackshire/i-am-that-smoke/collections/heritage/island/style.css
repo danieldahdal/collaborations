@@ -27,17 +27,6 @@ body{
     margin:0 auto;
 }
 
-#headline{
-    font-family: 'Oswald', sans-serif;
-    font-size:80vw;
-    color:#000000;
-    -webkit-text-stroke:3px #ff0000;
-}
-
-#headline span{
-    font-size:57.6vw;
-}
-
 #flags{
     width:80%;
 }
@@ -60,4 +49,5 @@ body{
 #flags .flag img{
     opacity:0.8;
     border-radius:15px;
+    object-fit:contain;
 }
