@@ -16,16 +16,18 @@ body{
 
 }
 
+#content{
+    position:absolute;
+    top:35px;
+    left:0;
+    right:0;
+    margin:0 auto;
+}
+
 #headline{
     font-family: 'Oswald', sans-serif;
     font-size:125px;
     color:#000000;
-    position:absolute;
-    top:35px;
-    bottom:200px;
-    left:0;
-    right:0;
-    margin:0 auto;
     -webkit-text-stroke:3px #ff0000;
 }
 
@@ -35,11 +37,6 @@ body{
 
 #flags{
     width:80%;
-    position:absolute;
-    top:200px;
-    left:0;
-    right:0;
-    margin:0 auto;
 }
 
 #flags .flag{
