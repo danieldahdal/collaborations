@@ -3,7 +3,8 @@
 body{
     margin:0;
     height:100vh;
-    background-color:#0a0a0a;
+    background-color:#0080ff;
+    background-image:linear-gradient(to bottom, #0080ff, #93c47d);
 }
 
 #video{
