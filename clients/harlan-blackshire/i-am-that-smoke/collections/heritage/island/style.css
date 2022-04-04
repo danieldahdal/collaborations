@@ -26,13 +26,13 @@ body{
 
 #headline{
     font-family: 'Oswald', sans-serif;
-    font-size:125px;
+    font-size:80vw;
     color:#000000;
     -webkit-text-stroke:3px #ff0000;
 }
 
 #headline span{
-    font-size:90px;
+    font-size:57.6vw;
 }
 
 #flags{
