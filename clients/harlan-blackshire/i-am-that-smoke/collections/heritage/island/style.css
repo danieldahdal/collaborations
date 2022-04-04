@@ -5,6 +5,8 @@ body{
     height:100vh;
     background-color:#0080ff;
     background-image:linear-gradient(to bottom, #0080ff, #93c47d);
+    background-attachment:fixed;
+    background-repeat:no-repeat;
 }
 
 #video{
